@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class seseorrang {
+class seseorang {
   public:
   //virtual void pesan () = 0;
   virtual void pesan() {
@@ -9,7 +9,9 @@ class seseorrang {
   }
 };
 
-class joko :public sesorang {
+class joko :public seseorang {
   public:
-  void pesan()
-}
+  void pesan() {
+    cout << "Pesan dari joko"<<endl;
+   }
+};
