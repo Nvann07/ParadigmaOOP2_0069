@@ -24,7 +24,7 @@ class pekerja : virtual public orang {
 
 class pelajar : virtual public orang {
   public:
-  pelajar(int PUmur) :
+  pelajar(int pUmur) :
        orang(pUmur)
   {
       cout << "pelajar dibuat\n" << endl;
