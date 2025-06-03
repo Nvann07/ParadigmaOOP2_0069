@@ -5,8 +5,8 @@ class remoteLampu {
 private:
 string saklarNo[10];
 public:
-void setSaklarNo(inyt i, string value) {
-  setSaklarNo[i] = value;
+void setSaklarNo(int i, string value) {
+  SaklarNo[i] = value;
 }
 string getSaklarNo(int i) {
   return saklarNo[i];
@@ -27,4 +27,5 @@ int main() {
   cout << lampuRumah.getSaklarNo(3) << endl;
 
   return 0;
+
 }
